@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap 
+metadata:
+  name: someconfigmap
+  namespace: tmb13be
+data:
+  PORT_NUMBER: "asdasdfasfd"

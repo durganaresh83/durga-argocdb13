@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: appwithinit
+spec:
+  initContainers:
+    - name: "asdasdfasfd"
+      image: axas:latest
+      command: ['ls']
+  
+    
+  containers:
+    - name: app
+      image: asxad:latest
+      ports:
+        - containerPort: 80
